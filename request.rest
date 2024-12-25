@@ -1,4 +1,49 @@
 ###
+curl 'http://localhost:3000/api/test' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:3000/api/test' 
+###
+curl 'http://localhost:3000/api/test' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: ' \
+  -H 'Referer: http://localhost:3000/external' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+
+###
+curl 'http://localhost:3000/api/test' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: appSession=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidWF0IjoxNzM1MTQwNTQ2LCJpYXQiOjE3MzUxMzc4OTAsImV4cCI6MTczNTIyNjk0Nn0..wKXjY_RrWpS6Rmgy.LzVxmnlQnKP7y3W8YzRHEGO8iLBG_KLM8DvIbB8XjnT5_gwgYmr4hOk7GMw6DK7qDzwwImI-DKE3Zx9fG32FWMpC_ROBGRxtTr_ZRlVt4e_74UUWLJ6Eg8443EdRd4fWHs9ADokNA4Ll9ZcOSBvgwBdzQzm-FdyaZeMGalOvv6V0xQHF71GuzcgcNbUXaMv3pFjWIkbqCbb1gMm1s5Kaau_Zj5YTmlbyv6c-sL6GJijJV5nsyQ87HClPAx0-dC2rn0QuxFnP8R7Z8JzYn6j6jVJN8MedK6VtWKZCzaQfIg3tDQKkylDRcqQEnBLXqUR78T16TOLh_CLqF__oAF0QYprNlJIIheHV3e_vHH3uVdCTlSpZmZnQVuB4Yw54Bey6lY1W3pY9SPTfg-wf2Ih6KQkpHN6WngsfNVcvrn5dW8J_j4lgP8o_kipSplVf6Vst0HwfwIzB8zd0MWn7DAeor8bkB3G8CVqcNsIZTkbxLuerBieXNsamhkeGUio-aa8cyMMXh5tJXsI8gceH4LPQdc7kXxgfzwFdMg0jPgIurgDGQoogOZP7l4UOZr91aYTehWZYLXnoiNzkcUFWLyprlwi9fAiDoePNcclHEljXjsuq8RiM6ZrLiYc3DQVZIVNb_d5Fgw6K0SKpQSW4P3BhzAkt24d5Kg6kiSalWAemtMfMs58MUoIOoT65EwNv-0KQVkyZgPvk52DsqqSbzJxx0tNOpk3jO17cnmKjl3nbTz_zi_1IyWeWaxliPCO0GjPP8PEEFrOmyAfvCDQh-9Mkgns90aGQCS3dLJndOiWl8DH5hWzEe-6CVAtbFp85rkSx501jkXm31GxXbBs9WJg95CQWsyKgilAIBznVD4xbLYbSgIet7J8ULKTpl0I-zXj1GL5nMASssp3hv-Bf7exitDEfge6Tlr_ZwbTYFFFCCy5DMDE7M2SRWAWtRjf2gt996qw5sBbE-CrF_c-642G7SwlQd0WGqfb4kHQi99WzbIjcedLVpa9F-LZJECCFzmeQUcde95kWvfEg1yrrwVcpqs-DEH8z1_Q8ZNydb4rhmU8ggk_kdUg-tAjaNqMDaZ8VQfWsolrGkVnBycT2UFHbgkabImYWRvk0062T6xCtId7vQzeN7j-2JltDdF9N26SVEnkn1rMuh4WgKd9ttLVfFHg5VQ_2jpCrSDmKwyfjKMB-gyQL_vGesi7FED2w4Nb_ZROWrhQV8U3nyV1CbjpXTn-9efnySFUk0qph0SW2PA-FT_B9IC5fMHkFGFakOjL40u--PE74W6pgWo7fUbWUDCyZlOp2J8NiNPYjy0iQpRK1GeXmRjoZNEPpYlLY6rkddplS2oPO1Z-eAB95hgiw_y3HTrEnJMvju1ga3jiFTJU8KIkw03GZVJhCzbdRXn_99EeisN8eTfD6yFyftPkRqv7jDY2fGS54mNmyP3OvpbFZ5nk4J_cRbG14cAmJqZr81NfxWTnm97PNiGKlIREZesWsXbSme0ulSXuYCGjZZkZFuxvrkHKM4lzrukDuW7Ge2QoSWq1HZ1W7L4G1l9HhsHvTsisi3AI1lOq5joKp1IhxueK_JKKP2OZ1CApJGigvqNsNWmX4yOLnOSwBdDEv7dcCRRtBOI0911hWLgPTj4ZETQ7LF9immHASNvVr3djOyQflpkWv-vhpNMo3DT33T1tJaE0y4giM4KK8DK-JpvUf8Q4beomWCGz97TTL-TJMSW4SylG8N139omUnjA5_O_Vzjr74VdSz_FF6t_eWZl7MxABY6yl1I7EtXYlAL9Jv682BhZhaqrJ4rveSA10LexNaNpbg-1zv6FzCS-98eLMdk6AcUg3MNNNNfCq_sBFXKh9lxHlqft8qNqUnuKDqEWYLJ6U09Lgjj8-V-E39tuG7zDlQTChcXUk365cHOd6OBot6i1cfjH9KY-_h7jhIAsyJRvKw0Bijvaf79oS9o1MUinp1eHov8Ntth0GhmkH4JRShZEd4Fl4yjhz8our9xy_YqRD8SHwC7jJvc1Af-bWwa3XtqWeShyETz2ZJs4b6fr8i5HI9IWGxikLpkHZh6GdzI2YtEDg0t1uAf_Kl189WWmqmU1_IvA6kgUj5PeJ5zjfa24KGiDLIbpbzaO0ZZWNps_nT4SKfy31Vnb8Kn0iLnUw-sr1MCv_xZbvir_LF13J2U2M7-ZQ_w4RKqIZ_zM7jHnwYnmT-sr4c3eTjBa_KINMPkKAeeQXAv8CLn0v2_m22qKH5i4t69Lkm2gnghhWCW-tKNg7IjM56chBXFk5DtjqQRw5v_U8_bFOs9LJOviX4GiENhG2lzO8L2K2FHgE0MZoZpHXsLL_-mCfGPKc5dhw_iEdU2h9Bs3bZZucODYdZva4UJ6PWC0WMmFQzEGy3GnkCCvBSY-BKF5C3ByxOgkJHuY0epk4W4wFVLrHLeQ8UyaouXz4NBB2UAmDKNTuBki_U9vBID0tjQhDm_Tn0wMaN_vIgcW4Re51dip8bvKpOguz6WZQaaLS7FzgnErWoeaE4KUvUk8uMQ_s9dyO4605TQ34C6uPfoLwk7pDUUyCClwk3VMhYwm0IVLW87lrsRwjqtKHdUVJAjqZaRj_LnchYAnE55-8cUSWHVb0JF4pX01UVHkNn0CFE1LwogHxqLiemPqNbddGDZcHIG003Dx3hhk7SaGFhV34Y_f9i6cGbamhHH-gjZopeDTtGCCTwQa0Jt2i4yj1IECKc2WyLSISAn2cG1MyX_9nYHfd8ObEg6lhjYhlCKAtSCumDWq212AizwkumS-jNmDQpDyBfAhWboWhK.NxxyRq4ZIliYJa_MwfIFiw' \
+  -H 'Referer: http://localhost:3000/external' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"'
+###
 curl http://localhost:3001/api/shows
 
 ###

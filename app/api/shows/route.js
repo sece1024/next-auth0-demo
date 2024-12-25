@@ -1,6 +1,6 @@
 import { getAccessToken, withApiAuthRequired } from '@auth0/nextjs-auth0';
 import { NextResponse } from 'next/server';
-
+import Cookies from 'js-cookie'
 export const GET = withApiAuthRequired(async function shows(req) {
   try {
     const res = new NextResponse();
@@ -19,6 +19,7 @@ export const GET = withApiAuthRequired(async function shows(req) {
     });
     const shows = await response.json();
     // res.setHeader('Set-Cookie', `myCookie=${accessToken}; Path=/; HttpOnly; Max-Age=604800`); // 7 天有效期
+    Cookies.set('Authorization', accessToken)
     return NextResponse.json(shows, res);
   } catch (error) {
     console.log('api error------------------')
